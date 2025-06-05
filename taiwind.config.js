@@ -1,0 +1,90 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#FFF5F8',
+          100: '#FFE5EC',
+          200: '#FFD0DE',
+          300: '#FFB5CA',
+          400: '#FF9CB9',
+          500: '#FF85A2', // primary
+          600: '#FF5A85',
+          700: '#FF3D70',
+          800: '#FF1F5B',
+          900: '#E50046',
+        },
+        secondary: {
+          50: '#F0FAFA',
+          100: '#D9F1F1',
+          200: '#B3E3E3',
+          300: '#8ED5D5',
+          400: '#7BD1D1', // secondary
+          500: '#5AC7C7',
+          600: '#3DBEBE',
+          700: '#2DA6A6',
+          800: '#1D8E8E',
+          900: '#0D7676',
+        },
+        accent: {
+          50: '#F5F2FF',
+          100: '#EBE5FF',
+          200: '#D8CBFF',
+          300: '#C4B1FF',
+          400: '#B199FF',
+          500: '#9D72FF', // accent
+          600: '#8A4CFF',
+          700: '#7626FF',
+          800: '#6300FF',
+          900: '#5200D6',
+        },
+        success: {
+          50: '#EEFCF3',
+          100: '#DDF9E7',
+          200: '#BCF4CF',
+          300: '#9AEEAB',
+          400: '#79E994',
+          500: '#57E37C',
+          600: '#36DD64',
+          700: '#21C64F',
+          800: '#1A9E3F',
+          900: '#137530',
+        },
+        warning: {
+          50: '#FFF9EB',
+          100: '#FFF3D6',
+          200: '#FFE7AD',
+          300: '#FFDB85',
+          400: '#FFCF5C',
+          500: '#FFC333',
+          600: '#FFB70A',
+          700: '#E09F00',
+          800: '#B88300',
+          900: '#8F6600',
+        },
+        error: {
+          50: '#FEF2F2',
+          100: '#FEE2E2',
+          200: '#FECACA',
+          300: '#FCA5A5',
+          400: '#F87171',
+          500: '#EF4444',
+          600: '#DC2626',
+          700: '#B91C1C',
+          800: '#991B1B',
+          900: '#7F1D1D',
+        },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        display: ['Fredoka', 'sans-serif'],
+      },
+      animation: {
+        'bounce-slow': 'bounce 3s infinite',
+      },
+    },
+  },
+  plugins: [],
+};
